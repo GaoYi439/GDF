@@ -1,5 +1,5 @@
 # GDF
-[IJCAI'23] Unbiased Risk Estimator to Multi-Labeled Complementary Label Learning
+[IJCAI'23] Unbiased Risk Estimator to Multi-Labeled Complementary Label Learning (the appendix is shown in the .pdf file)
 
 This code gives the implementation  of the paper "Unbiased Risk Estimator to Multi-Labeled Complementary Label Learning".
 
@@ -13,6 +13,7 @@ main.py
 
 generate.py
   >This is used to generate complementary labels. After running, you should see a .csv file of complementary labels for a dataset in the vector form. If you have prepared the training data and its complemenatry labels, please ignore it. 
+  
   
 ## Running
 

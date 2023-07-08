@@ -98,7 +98,7 @@ def train(train_loader, model, optimizer, args):
     return train_loss / len(train_loader)
 
 
-# test the results
+# test the results, all data in the test data is placed in a batch
 def validate(test_loader, model, args):
     with torch.no_grad():
         model.eval()
